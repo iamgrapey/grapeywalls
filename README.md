@@ -1,2 +1,2 @@
 # grapeywalls
-grapey wallpapers
+A collection of beautfiul wallpapers!
