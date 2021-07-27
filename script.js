@@ -1,10 +1,15 @@
 //always https
 
-if(location.protocol=='http:') location.protocol='https:'
+if (location.protocol == "http:") location.protocol = "https:";
 
 // define wallpapers
 
 const phone = [
+  {
+    name: "Olives",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork.png?v=1623019298656"
+  },
   {
     name: "Dark Mountains",
     url:
@@ -64,6 +69,26 @@ const phone = [
     name: "Blurple Hills",
     url:
       "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork_2.png?v=1616627001439"
+  },
+  {
+    name: "Black on Red Hills",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1478.PNG?v=1620437341815"
+  },
+  {
+    name: "Black on Red Stripes",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1479.PNG?v=1620437344309"
+  },
+  {
+    name: "Black on Red Circles",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1477.PNG?v=1620437341881"
+  },
+  {
+    name: "Craft",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1495.PNG?v=1621044678599"
   }
 ];
 
@@ -130,13 +155,18 @@ const tablet = [
       "https://cdn.glitch.com/d0fa6b61-e860-4765-97ea-a5311c63565b%2FIMG_1061.PNG?v=1611711162116"
   },
   {
-    name: "Blurple Hills",
+    name: "Craft",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork.png?v=1615598526766"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1496.PNG?v=1621044677049"
   }
 ];
 
 const desktop = [
+  {
+    name: "Olives",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%201.png?v=1623019299150"
+  },
   {
     name: "Blurple Hills",
     url:
@@ -178,14 +208,18 @@ const desktop = [
       "https://cdn.glitch.com/7525577f-9680-4324-9540-3ef3c7eb588d%2FIMG_1153.png?v=1614115555399"
   },
   {
-    name: "Weather",
+    name: "Black Sunrise",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork_3.png?v=1615598527317"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1481.PNG?v=1620437357989"
+  },
+  {
+    name: "Craft",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FIMG_1493.PNG?v=1621047165803"
   }
 ];
 
-// add to html
-
+// ADD TO HTML
 function wallpapers(json, element) {
   var i;
   for (i = 0; i < json.length; i++) {
@@ -201,7 +235,7 @@ function wallpapers(json, element) {
           <img
             src="${wallpaper.url}"
             width="270px"
-            style="border-radius: 3px;"
+            style="border-radius: 7px;"
             alt="${wallpaper.name}"
           /><br />
           <span>${wallpaper.name}</span>
