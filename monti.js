@@ -2,37 +2,42 @@ const monti = [
   {
     name: "Simpler Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%2010.png?v=1625970228395"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Fkfgljhsdlfkjh'.png?v=1628209258798"
   },
   {
     name: "Blue Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%207.png?v=1625970226237"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Fwehflajdshf.png?v=1628209259029"
   },
   {
     name: "Red Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%209.png?v=1625970226442"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Fsfdkghlskjdfg.png?v=1628209261157"
   },
   {
     name: "Camo Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%208.png?v=1625970227107"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Ffsdkjgdfkjgsf.png?v=1628209257607"
   },
   {
     name: "Tropical Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%2012.png?v=1625970227183"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Fdsfgsdfgsfdg.png?v=1628209256785"
   },
   {
     name: "Jaded Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%2011.png?v=1625970227385"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Fgfiudgskfljdsglksjdfg.png?v=1628209258059"
   },
   {
     name: "Deserted Monti",
     url:
-      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2FUntitled_Artwork%2013.png?v=1625970227448"
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Fdfsgdsfgsdfg.png?v=1628209256520"
+  },
+  {
+    name: "Blurple Monti",
+    url:
+      "https://cdn.glitch.com/a18e5a35-4fbf-4b73-b9f5-c51b2d2d5883%2Ffsgfdgsdf.png?v=1628209257353"
   },
   {
     name: "Playful Monti",

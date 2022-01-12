@@ -1,7 +1,3 @@
-//always https
-
-if (location.protocol == "http:") location.protocol = "https:";
-
 // define wallpapers
 
 const phone = [
